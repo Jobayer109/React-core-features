@@ -1,0 +1,59 @@
+.html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bio {
+  line-height: 8px;
+}
+.bio h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 50%;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 0, auto;
+}
+
+.skills ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+}
+
+.skills ul > li {
+  margin-right: 20px;
+  text-align: center;
+  width: 100px;
+  background-color: #e8e6e6;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.contact ul {
+  display: flex;
+  justify-content: left;
+  list-style-type: none;
+}
+
+.contact ul > li {
+  margin-right: 20px;
+  text-align: center;
+  width: 100px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,7 +1,7 @@
-const Bio = () => (
+const Bio = (props) => (
   <div className="bio">
-    <h2>Jobayer Ahmed</h2>
-    <p>Jr. Software Developer</p>
+    <h2>{props.name}</h2>
+    <p>{props.title}</p>
   </div>
 );
 

@@ -3,13 +3,31 @@ const Contact = () => (
     <h3>Contact with me: </h3>
     <ul>
       <li>
-        <a href="www.google.com">Facebook</a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/jobayer109/"
+          rel="noreferrer"
+        >
+          Facebook
+        </a>
       </li>
       <li>
-        <a href="www.google.com">Linkedin</a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/jobayer109/"
+          rel="noreferrer"
+        >
+          Linkedin
+        </a>
       </li>
       <li>
-        <a href="www.google.com">Github</a>
+        <a
+          target="_blank"
+          href="https://github.com/Jobayer109"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </li>
     </ul>
   </div>

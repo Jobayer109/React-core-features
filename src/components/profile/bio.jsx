@@ -1,7 +1,7 @@
-const Bio = (props) => (
+const Bio = ({ name, title }) => (
   <div className="bio">
-    <h2>{props.name}</h2>
-    <p>{props.title}</p>
+    <h2>{name}</h2>
+    <p>{title}</p>
   </div>
 );
 
